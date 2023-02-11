@@ -1,0 +1,154 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    
+    background-color: lightskyblue;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    font-size: 45px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    margin-top: 20px;
+    width: 225px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 350px;
+  }
+  
+  h1#titulo-jogo {
+    color: white;
+    font-size: 45px;
+  }
+  
+  input#numeroUsuario {
+    margin-top: 25px;
+    width: 240px;
+    height: 50px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  
+  input#numeroUsuario::placeholder {
+     font-size: 15px;
+     color: black;
+  }
+  
+  button#enter {
+    width: 80px;
+    height: 50px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    background: linear-gradient(to right, purple, blue);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  button#btn {
+    width: 270px;
+    height: 80px;
+    margin-top: 15px;
+    font-size: 30px;
+    background: linear-gradient(to right, purple, blue);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 15px;
+  }
+  
+  div#start-game{
+    margin-top: 25px;
+    display: block;
+  }
+
+  div#resultadoJogo {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 30px;
+    font-size: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1#placar {
+    color: white;
+  }
+  
+  h1#anunciadoJogo {
+    color: white;
+  }
+  
+  div#jogo {
+    display: block;
+  }
+  
+  h2 {
+    color: white;
+  }
+  
+  .reverse {
+    display:flex;
+    flex-direction: column-reverse;
+  }
+  
+  button#btn-again {
+    background: linear-gradient(to right, purple, blue);
+    border-radius: 8px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    margin-top: 10px;
+    transition: 0.4s;
+  }
+  
+  button#btn:hover, button#enter:hover, button#btn-again:hover {
+    transform: scale(1.05);
+  } 
